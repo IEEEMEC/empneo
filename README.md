@@ -1,2 +1,2 @@
 # IEEEMEC.github.io
-This is the website for IEEE Emp
+This is the website for IEEE Empneo
