@@ -133,15 +133,15 @@ p {
       background-color: white;
       border-color: rgba(34, 34, 34, 0.1);
       .navbar-header .navbar-brand {
-        color: #222222;
+        color: white;
         &:hover, &:focus {
           color: $theme-primary;
         }
       }
       .nav > li > a {
-        color: #222222;
+        color: #ddeeff;
         &:focus {
-          color: #222222;
+          color: grey;
         }
         &:hover, &:focus:hover {
           color: $theme-primary;
@@ -427,7 +427,7 @@ section {
 }
 
 footer {
-  background-color: #222222;
+  background-color: #17111b;
   padding: 25px 0;
   color: rgba(255, 255, 255, 0.3);
   text-align: center;
@@ -478,11 +478,19 @@ footer {
   text-transform: uppercase;
   letter-spacing: 2px;
   border-radius: 300px;
+  border-radius: 4px;
+  padding: 1em 3em;
 }
 
 .btn-xl {
   padding: 15px 45px;
   font-size: 11px;
+}
+
+.btn-secondary {
+  background-color: tomato;
+  border-color: tomato;
+  color: white;
 }
 
 ::-moz-selection, ::selection {
@@ -514,11 +522,12 @@ body {
     display: block;
     max-width: 650px;
     margin: 0 auto;
+    padding: 4em 0;
     .portfolio-box-caption {
         color:white;
         opacity: 0;
         display: block;
-        background: rgba(99, 162, 235, 0.9);
+        background: rgba(167, 99, 235, 0.9);
         position: absolute;
         bottom: 0;
         text-align: center;
